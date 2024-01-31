@@ -1,55 +1,80 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Conhecimento geral",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Quantos fusos horários existem na Rússia?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"6", "alias":"A"},
+        {"id": 2, "name":"10", "alias":"A"},
+        {"id": 3, "name":"11", "alias":"B"},
+        {"id": 4, "name":"23", "alias":"A"},
+        {"id": 5, "name":"7", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual é a flor nacional do Japão?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Flor de Cerejeira", "alias":"B"},
+        {"id": 2, "name":"Camélia", "alias":"A"},
+        {"id": 3, "name":"Violeta", "alias":"A"},
+        {"id": 4, "name":"Flor de pêssego", "alias":"A"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Quantas tiras há na bandeira dos Estados Unidos?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"11", "alias":"A"},
+        {"id": 2, "name":"13", "alias":"B"},
+        {"id": 3, "name":"10", "alias":"A"},
+        {"id": 4, "name":"21", "alias":"A"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual é o animal nacional da Austrália?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Canguru vermelho", "alias":"B"},
+        {"id": 2, "name":"Morcego gigante", "alias":"A"},
+        {"id": 1, "name":"Quokka", "alias":"A"},
+        {"id": 2, "name":"Coalas", "alias":"A"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Quantos dias são necessários para a Terra orbitar o sol?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"355", "alias":"A"},
+        {"id": 2, "name":"285", "alias":"A"},
+        {"id": 3, "name":"420", "alias":"A"},
+        {"id": 4, "name":"365", "alias":"B"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual dos impérios a seguir não possui um idioma escrito?",
+      "options": [
+        {"id": 1, "name":"Azteca", "alias":"A"},
+        {"id": 2, "name":"Inca", "alias":"B"},
+        {"id":3, "name": "Egípcio", "alias": "A"},
+        {"id":3, "name": "Romano", "alias": "A"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Até 1923, como era chamada a cidade turca de Istambul?",
+      "options": [
+        {"id": 1, "name":"Ancara", "alias":"A"},
+        {"id": 2, "name":"Capadócia", "alias":"A"},
+        {"id":3, "name": "Constantinopla", "alias": "B"},
+        {"id":3, "name": "Adana", "alias": "A"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você não sabe muito sobre conhecimentos gerais!",
+    "B": "Você sabe muito sobre conhecimentos gerais!"
   }
 }

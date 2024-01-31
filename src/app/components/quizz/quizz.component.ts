@@ -47,6 +47,12 @@ export class QuizzComponent implements OnInit {
 
   }
 
+  refazer(){
+    this.questionIndex = 0
+    this.finished = false
+    this.nextStep()
+  }
+
   async nextStep(){
     this.questionIndex+=1
 
