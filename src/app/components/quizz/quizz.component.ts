@@ -34,9 +34,6 @@ export class QuizzComponent implements OnInit {
 
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
-
-      console.log(this.questionIndex)
-      console.log(this.questionMaxIndex)
     }
 
   }
@@ -50,6 +47,7 @@ export class QuizzComponent implements OnInit {
   refazer(){
     this.questionIndex = 0
     this.finished = false
+    this.answerSelected = ""
     this.nextStep()
   }
 
